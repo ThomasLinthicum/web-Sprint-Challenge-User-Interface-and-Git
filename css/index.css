@@ -144,3 +144,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.topbar nav{
+    display:flex;
+}
+
+.topbar nav a{
+    text-decoration: none;
+    color: black;
+    padding:20px;
+    margin:0 25px;
+}
+
+.cars{
+    margin-bottom:20px;
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background:gold;
+}
+
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background:coral;
+}
+
+.middle-content .boxes .box5{
+    background:crimson;
+}
+
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+
+.middle-content .boxes .box9{
+    background:indigo;
+}
+
+.middle-content .boxes .box10{
+    background:dodgerblue;
+}
+
+
+/*about page css below this point*/
+
+.cars img{
+    width:100%;
+    height:150px;
+}
+
+.containeraboutpage{
+    padding-bottom:2%;
+    border-bottom:black dotted 2px;
+    margin-bottom:2%;
+}
+
+.pagemargins{
+    margin: 0 10%;
+}
+
+.collective{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.strat{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin:5%;
+    padding-bottom:1%;
+    border-bottom:dotted black 2px;
+}
+
+.daslearning a{
+    text-decoration:none;
+    color:black;
+}
+
+.daslearning{
+    border: solid black 2px;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+.strat h2{
+    font-size:22px;
+}
+
+.dasimg img{
+    width:100%;
+}
